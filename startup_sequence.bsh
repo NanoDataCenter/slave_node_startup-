@@ -2,13 +2,15 @@
 
 mkdir /home/pi/system_config
 export master_flag=false
-./local_conf.bsh
+
 
 export port=6379
 export host=192.168.1.66
 export graph_db=3.0
 
 
+echo $site
+echo $local_node
 
 
 
