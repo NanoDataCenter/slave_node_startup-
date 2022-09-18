@@ -17,7 +17,7 @@ echo $local_node
 
 #echo --- $hot_start
 rm /tmp/site_node_monitor.err
-/home/pi/work/startup/site_node_monitor 2>  /tmp/site_node_monitor.err
+/home/pi/client_setup/slave_node_startup-/site_node_monitor 2>  /tmp/site_node_monitor.err
 #./site_node_monitor
 #rm /tmp/site_node_monitor.errr
 cat /tmp/site_node_monitor.err
