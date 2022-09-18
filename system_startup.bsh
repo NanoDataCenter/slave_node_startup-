@@ -1,0 +1,18 @@
+
+
+
+rm /tmp/site_node_monitor.errr
+export hot_start="false"   
+mkdir ~mountpoint
+sudo mount /dev/sda /home/pi/mountpoint
+while [ 1 ]
+do
+   echo "executing site node control program ++++++++++++++++++++++++++ "+$hot_start
+   /home/pi/work/startup/startup_sequence.bsh
+   
+   echo "done"
+   export hot_start="true"  
+   sleep 10
+   
+
+done
