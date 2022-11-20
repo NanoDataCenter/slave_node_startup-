@@ -8,7 +8,7 @@ while [ 1 ]
 do
    echo "executing site node control program ++++++++++++++++++++++++++ "+$hot_start
    /home/pi/client_setup/slave_node_startup-/startup_sequence.bsh
-   exit   
+    
    echo "done"
    export hot_start="true"  
    sleep 10
